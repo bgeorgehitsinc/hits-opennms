@@ -21,6 +21,10 @@
       <version>${springSecurityVersion}</version>
       <exclusions>
         <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
           <groupId>org.springframework</groupId>
           <artifactId>*</artifactId>
         </exclusion>
@@ -33,7 +37,7 @@
       <exclusions>
         <exclusion>
           <groupId>commons-logging</groupId>
-          <artifactId>commons-logging</artifactId>
+          <artifactId>*</artifactId>
         </exclusion>
         <exclusion>
           <groupId>org.springframework</groupId>
@@ -47,6 +51,10 @@
       <version>${springSecurityVersion}</version>
       <exclusions>
         <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
           <groupId>org.springframework</groupId>
           <artifactId>*</artifactId>
         </exclusion>
@@ -58,6 +66,10 @@
       <version>${springSecurityVersion}</version>
       <exclusions>
         <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
           <groupId>org.springframework</groupId>
           <artifactId>*</artifactId>
         </exclusion>
@@ -68,6 +80,10 @@
       <artifactId>spring-security-taglibs</artifactId>
       <version>${springSecurityVersion}</version>
       <exclusions>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
         <exclusion>
           <groupId>org.springframework</groupId>
           <artifactId>*</artifactId>
